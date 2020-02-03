@@ -16,6 +16,8 @@ docker run -it --rm -p 6080:80 mtakeshi1222/ros_gui
 
 ![gui](https://i.imgur.com/ebk8hyn.jpg)
 
+http://127.0.0.1:6080/
+
 I was based on [ct2034/docker-ubuntu-vnc-desktop](https://github.com/ct2034/docker-ubuntu-vnc-desktop) and [dorowu/ubuntu-desktop-lxde-vnc](https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc) to create the this image.
 
 Then, I couldn't write a Dockerfile because that couldn't install ros melodic.
